@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-content-latex",
+  "version": "1.0.0",
+  "description": "My supreme Nuxt.js project",
+  "author": "Benjamin Canac",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "nuxt/content#feat\/rehype-plugins",
+    "nuxt": "^2.0.0",
+    "rehype-katex": "^3.0.0",
+    "remark-math": "^2.0.1"
+  },
+  "devDependencies": {}
+}
